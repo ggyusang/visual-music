@@ -59,15 +59,14 @@
     <Compile Include="Assets\Script\GYU\NoteManager.cs" />
     <Compile Include="Assets\Script\GYU\Drag2test.cs" />
     <Compile Include="Assets\Script\GYU\TurnOff.cs" />
-    <Compile Include="Assets\Script\GYU\NoteManger.cs" />
     <Compile Include="Assets\Script\GYU\Main_Flash_Test.cs" />
     <Compile Include="Assets\Script\InstaniateCube8.cs" />
     <Compile Include="Assets\Script\GYU\Note_test.cs" />
-    <Compile Include="Assets\Note_instantiate_last.cs" />
     <Compile Include="Assets\Script\GYU\Note_instantiate_test.cs" />
     <Compile Include="Assets\Script\GYU\Note_Archive.cs" />
     <Compile Include="Assets\Script\Audio.cs" />
     <Compile Include="Assets\Script\Instantiate512cubes.cs" />
+    <Compile Include="Assets\Script\GYU\Hit.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

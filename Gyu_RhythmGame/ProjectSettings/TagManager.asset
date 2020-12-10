@@ -8,6 +8,7 @@ TagManager:
   - Emerald
   - Red
   - Blue
+  - MainCircle
   layers:
   - Default
   - TransparentFX

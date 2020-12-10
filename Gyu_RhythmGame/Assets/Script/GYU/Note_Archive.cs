@@ -9,7 +9,7 @@ public class Note_Archive : MonoBehaviour
 
     public GameObject note_Prefab;
     public static Note_Archive instance;
-
+    public int archive_Max;
     public Queue<GameObject> note_Queue = new Queue<GameObject>();
 
 
@@ -20,7 +20,7 @@ public class Note_Archive : MonoBehaviour
     void Start()
     {
         instance = this;
-        for(int i=0; i<15; i++)
+        for(int i=0; i< archive_Max; i++)
         {
             GameObject clone_Note = Instantiate(note_Prefab);
             note_Queue.Enqueue(clone_Note);
@@ -33,10 +33,12 @@ public class Note_Archive : MonoBehaviour
     {
         note_Queue.Enqueue(p_object);
         p_object.SetActive(false);
+        p_object.transform.position = new Vector3(0, 0, 100);
     }
     public GameObject Getqueue()
     {
         GameObject t_Object = note_Queue.Dequeue();
+        t_Object.transform.position = new Vector3(0, 0, -70);
         t_Object.SetActive(true);
         return t_Object;
     }
