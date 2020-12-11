@@ -23,23 +23,27 @@ public class Note_Archive : MonoBehaviour
         for(int i=0; i< archive_Max; i++)
         {
             GameObject clone_Note = Instantiate(note_Prefab);
+
             note_Queue.Enqueue(clone_Note);
             clone_Note.SetActive(false);
         }
 
     }
 
-    public void InsertQueue(GameObject p_object)
+    public void InsertQueue(GameObject p_Object)
     {
-        note_Queue.Enqueue(p_object);
-        p_object.SetActive(false);
-        p_object.transform.position = new Vector3(0, 0, 100);
+     
+        note_Queue.Enqueue(p_Object);
+        p_Object.SetActive(false);
+        p_Object.transform.position = new Vector3(0, 0, 100);
+
     }
     public GameObject Getqueue()
     {
         GameObject t_Object = note_Queue.Dequeue();
         t_Object.transform.position = new Vector3(0, 0, -70);
         t_Object.SetActive(true);
+       
         return t_Object;
     }
 

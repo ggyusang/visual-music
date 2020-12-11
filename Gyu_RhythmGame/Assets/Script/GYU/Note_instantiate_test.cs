@@ -14,14 +14,14 @@ public class Note_instantiate_test : MonoBehaviour
     public int bpm = 0;
     [SerializeField] Vector3 start_Point = new Vector3(0, 0, -70);
     //   double currentTime = 0d;
-
+  
     float random_x;
     int random_mark = 1;
     float random_y;
     [SerializeField] float radius = 16;
 
    
-    private void Start()
+    private void Start( )
     {
 
         InvokeRepeating("Instantiate_Note", 1, 0.8f);
@@ -38,8 +38,8 @@ public class Note_instantiate_test : MonoBehaviour
        // Debug.Log("x =" + random_x + " y =" + random_y);
     GameObject ins_Note= Instantiate(mainNote, start_Point, Quaternion.LookRotation(new Vector3(random_x, random_y, -50)));
         */
-        GameObject asdf = Note_Archive.instance.Getqueue();
-        asdf.transform.rotation = Quaternion.LookRotation(new Vector3(random_x, random_y, -50));
+         GameObject aaa = Note_Archive.instance.Getqueue();
+        aaa.transform.rotation = Quaternion.LookRotation(new Vector3(random_x, random_y, -50));
     }
     /*
   // Update is called once per frame

@@ -14,10 +14,11 @@ public class Note_test : MonoBehaviour
     void FixedUpdate()
     {
         transform.position += transform.forward*moveSpeed;
+       /*
         if (this.gameObject.transform.position.z <-119.7)
         {
             Note_Archive.instance.InsertQueue(this.gameObject);
-        }
+        }*/
         /*
         //transform.LookAt(new Vector3(random_x, random_y, -120));
         random_x = Random.Range(-4.0f, 4.0f);
