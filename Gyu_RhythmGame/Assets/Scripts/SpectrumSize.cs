@@ -1,0 +1,37 @@
+﻿// ---------------------------------------
+// Spectrum Visualizer code by Bad Raccoon
+// (C)opyRight 2017/2018 By :
+// Bad Raccoon / Creepy Cat / Barking Dog 
+// ---------------------------------------
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System.Linq;
+
+public class SpectrumSize : MonoBehaviour {
+	public GameObject theObject;
+	public int audioChannel = 4;
+	public float audioSensibility = 0.15f;
+
+	public float plusScale;
+	public float lerpTime = 5.0f;
+	public float threshold = 3.0f;
+	private Vector3 oldLocalScale;
+
+	void Start(){
+		oldLocalScale = theObject.transform.localScale;
+	}
+
+	void Update () {
+
+		// If i find the beat
+		if (Audio._freqBand[audioChannel] * threshold >= audioSensibility) {
+			//theObject.transform.Rotate ((Vector3.forward * Random.Range(-180.0f, 180.0f)) * Time.deltaTime);
+			theObject.transform.localScale += new Vector3(plusScale, plusScale, plusScale);
+		} else {
+
+			// Retrieve the old position smoothly
+			theObject.transform.localScale = Vector3.Lerp (theObject.transform.localScale, oldLocalScale, lerpTime * Time.deltaTime);	
+		}
+	}
+}
