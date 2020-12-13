@@ -343,7 +343,7 @@ MonoBehaviour:
   analyzer: {fileID: 1942172355}
   player: {fileID: 1294148615}
   songs:
-  - {fileID: 8300000, guid: 318c4810c31465048953bf3553eb61ee, type: 3}
+  - {fileID: 8300000, guid: 043d8de4e24152f47b8d0d18f5579f57, type: 3}
 --- !u!1 &183114750
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,7 +837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ef290cbb45382c4dbf611467fe3887e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rhythmData: {fileID: 11400000, guid: fecc32a6ac4c24648aad63bc8962454b, type: 2}
+  rhythmData: {fileID: 11400000, guid: 72da4bf20dc1afa4db423d289d9167db, type: 2}
   targets:
   - {fileID: 11400000, guid: aa10ada6082e0654481670cfe9e536d1, type: 2}
 --- !u!82 &1294148616

@@ -8,7 +8,7 @@ public class Audio : MonoBehaviour
 {
     public  bool Audio_Start = false;
     public float time =5;
-    AudioSource _audioSource;
+   [SerializeField] AudioSource _audioSource;
     /*  float[] _spectrumdata = new float[512];     // 오디오 소스의 주파수를 담을 배열 
        float[] _freqBand = new float[8];   //spectrumdata에 담겨진 주파수를 다시한번 유의미한 값으로 담을 배열 
         float[] _bandBuffer = new float[8]; // */
@@ -25,15 +25,20 @@ public class Audio : MonoBehaviour
 
     void Start()
     {
-        _audioSource = GetComponent<AudioSource>();
+      
         _audioSource.PlayDelayed(time);
+        _audioSource.mute = true;
     }
 
     // Update is called once per frame
     void Update()
     {
        
-           
+         if(  _audioSource.time> 1.6f)
+        {
+         
+            _audioSource.mute = false;
+        }
 
         GetSpectrumAudioSource();
         MakeFrequencyBands();

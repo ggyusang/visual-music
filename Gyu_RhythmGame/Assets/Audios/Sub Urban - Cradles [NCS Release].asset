@@ -100,228 +100,111 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Onsets
   _features:
-  - timestamp: 0.10497908
+  - timestamp: 0.09936023
     length: 0
-    strength: 0.69308245
-  - timestamp: 0.4643991
-    length: 0
-    strength: 1.1961693
+    strength: 2.6041665
   - timestamp: 0.83591837
     length: 0
     strength: 1.2462931
-  - timestamp: 1.2074376
-    length: 0
-    strength: 1.0058426
-  - timestamp: 1.578957
-    length: 0
-    strength: 1.0555085
-  - timestamp: 1.9736961
-    length: 0
-    strength: 0.93987954
   - timestamp: 2.3452153
     length: 0
     strength: 1.282681
-  - timestamp: 2.7167346
-    length: 0
-    strength: 1.0448151
   - timestamp: 3.088254
     length: 0
-    strength: 1.3364501
-  - timestamp: 3.4597733
-    length: 0
-    strength: 1.0675479
-  - timestamp: 3.8312926
-    length: 0
-    strength: 0.9835309
-  - timestamp: 4.2028117
-    length: 0
-    strength: 1.0398991
+    strength: 3
   - timestamp: 4.597551
     length: 0
     strength: 0.73218143
-  - timestamp: 4.9690704
-    length: 0
-    strength: 0.9141227
   - timestamp: 5.3405895
     length: 0
-    strength: 0.9507436
-  - timestamp: 5.7121086
-    length: 0
-    strength: 0.87749165
+    strength: 2
   - timestamp: 6.037188
     length: 0
-    strength: 1.1119163
-  - timestamp: 6.4551473
-    length: 0
-    strength: 1.0853906
+    strength: 3
   - timestamp: 6.8498864
     length: 0
     strength: 1.1232111
-  - timestamp: 7.221406
-    length: 0
-    strength: 1.0753136
   - timestamp: 7.592925
     length: 0
-    strength: 1.2917012
+    strength: 1
   - timestamp: 7.9644446
     length: 0
-    strength: 1.5530477
+    strength: 2
   - timestamp: 8.335963
     length: 0
-    strength: 1.3667942
+    strength: 3
   - timestamp: 9.102222
     length: 0
     strength: 0.9213086
-  - timestamp: 9.473742
-    length: 0
-    strength: 0.951024
   - timestamp: 9.822041
     length: 0
-    strength: 1.0385399
-  - timestamp: 10.21678
-    length: 0
-    strength: 0.96225256
+    strength: 2.5
   - timestamp: 10.5883
     length: 0
     strength: 0.71581835
-  - timestamp: 10.959819
-    length: 0
-    strength: 1.0193062
   - timestamp: 11.354558
     length: 0
     strength: 1.0157238
-  - timestamp: 11.702857
-    length: 0
-    strength: 0.7230179
   - timestamp: 12.074376
     length: 0
     strength: 8.685621
   - timestamp: 12.469115
     length: 0
-    strength: 7.3424683
-  - timestamp: 12.910295
-    length: 0
-    strength: 6.170368
+    strength: 6
   - timestamp: 13.606894
     length: 0
-    strength: 5.7800517
+    strength: 4
   - timestamp: 13.955193
     length: 0
     strength: 6.106664
-  - timestamp: 14.373152
-    length: 0
-    strength: 5.4141026
-  - timestamp: 14.791111
-    length: 0
-    strength: 4.0625286
   - timestamp: 15.092971
     length: 0
     strength: 6.7733536
   - timestamp: 15.46449
     length: 0
     strength: 5.8543215
-  - timestamp: 15.6502495
-    length: 0
-    strength: 2.6188998
-  - timestamp: 16.20753
-    length: 0
-    strength: 3.6116178
   - timestamp: 16.602268
     length: 0
-    strength: 5.712666
+    strength: 7
   - timestamp: 16.973787
     length: 0
     strength: 5.6795416
-  - timestamp: 17.182766
-    length: 0
-    strength: 4.5202346
-  - timestamp: 17.368526
-    length: 0
-    strength: 3.6258838
-  - timestamp: 18.784943
-    length: 0
-    strength: 3.723824
-  - timestamp: 19.133244
-    length: 0
-    strength: 2.4635646
   - timestamp: 19.597641
     length: 0
-    strength: 6.352683
-  - timestamp: 19.783401
-    length: 0
-    strength: 4.3388414
+    strength: 8
   - timestamp: 19.96916
     length: 0
     strength: 6.1664033
-  - timestamp: 20.363901
-    length: 0
-    strength: 3.1834204
-  - timestamp: 20.75864
-    length: 0
-    strength: 3.3828325
   - timestamp: 21.08372
     length: 0
     strength: 6.263285
   - timestamp: 21.455238
     length: 0
-    strength: 5.7446213
-  - timestamp: 21.710657
-    length: 0
-    strength: 3.8897967
-  - timestamp: 22.058956
-    length: 0
-    strength: 2.9659956
-  - timestamp: 22.244717
-    length: 0
-    strength: 2.620781
+    strength: 4
   - timestamp: 22.593016
     length: 0
     strength: 6.7031927
-  - timestamp: 22.755556
-    length: 0
-    strength: 4.187595
   - timestamp: 22.964535
     length: 0
-    strength: 5.784476
-  - timestamp: 23.336054
-    length: 0
-    strength: 3.825445
-  - timestamp: 23.823673
-    length: 0
-    strength: 2.249566
+    strength: 4
   - timestamp: 24.102312
     length: 0
-    strength: 5.387626
+    strength: 3
   - timestamp: 24.473833
     length: 0
     strength: 5.5472064
-  - timestamp: 24.891792
-    length: 0
-    strength: 5.736016
   - timestamp: 25.58839
     length: 0
-    strength: 7.087317
-  - timestamp: 25.750929
-    length: 0
-    strength: 5.639774
+    strength: 8
   - timestamp: 25.95991
     length: 0
-    strength: 5.6213913
-  - timestamp: 26.168888
-    length: 0
-    strength: 4.11361
-  - timestamp: 26.726168
-    length: 0
-    strength: 3.337825
+    strength: 5
   - timestamp: 27.074467
     length: 0
     strength: 6.9253955
   - timestamp: 27.469206
     length: 0
     strength: 6.733372
-  - timestamp: 28.212244
-    length: 0
-    strength: 3.02327
   - timestamp: 28.606983
     length: 0
     strength: 4.6981025
@@ -342,37 +225,19 @@ MonoBehaviour:
     strength: 6.1279016
   - timestamp: 31.950657
     length: 0
-    strength: 5.3956223
-  - timestamp: 32.182858
-    length: 0
-    strength: 4.4662127
-  - timestamp: 32.716915
-    length: 0
-    strength: 3.1570768
+    strength: 4
   - timestamp: 33.088436
     length: 0
     strength: 6.1658406
   - timestamp: 33.459953
     length: 0
     strength: 4.5579696
-  - timestamp: 33.808254
-    length: 0
-    strength: 3.7327325
-  - timestamp: 34.110115
-    length: 0
-    strength: 3.4339058
   - timestamp: 34.597733
     length: 0
-    strength: 5.7215643
+    strength: 3
   - timestamp: 34.969254
     length: 0
     strength: 5.653567
-  - timestamp: 35.13179
-    length: 0
-    strength: 2.802443
-  - timestamp: 35.43365
-    length: 0
-    strength: 1.9170562
   - timestamp: 36.10703
     length: 0
     strength: 1.5391873
@@ -421,15 +286,9 @@ MonoBehaviour:
   - timestamp: 41.726257
     length: 0
     strength: 3.2245193
-  - timestamp: 42.07456
-    length: 0
-    strength: 2.7110796
   - timestamp: 42.446075
     length: 0
     strength: 2.7331614
-  - timestamp: 42.631836
-    length: 0
-    strength: 1.4763677
   - timestamp: 42.840816
     length: 0
     strength: 1.8698448
@@ -469,15 +328,12 @@ MonoBehaviour:
   - timestamp: 47.345486
     length: 0
     strength: 3.772835
-  - timestamp: 47.879547
+  - timestamp: 48.10525
     length: 0
-    strength: 3.179208
-  - timestamp: 48.111748
+    strength: 3.1
+  - timestamp: 48.106815
     length: 0
-    strength: 4.4463506
-  - timestamp: 48.460045
-    length: 0
-    strength: 5.8878045
+    strength: 3
   - timestamp: 48.854786
     length: 0
     strength: 10.4737215
@@ -1783,7 +1639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3897cfcf026eb848b3be5b9a80f84af, type: 3}
   m_Name: Sub Urban - Cradles [NCS Release]
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 8300000, guid: 63647aeb4a8315d45b4a634ff83b7939, type: 3}
+  audioClip: {fileID: 8300000, guid: 043d8de4e24152f47b8d0d18f5579f57, type: 3}
   _tracks:
   - {fileID: 4036223644758702332}
   - {fileID: -4701944889337397892}

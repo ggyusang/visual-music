@@ -11,7 +11,7 @@ public class Note_Archive : MonoBehaviour
     public static Note_Archive instance;
     public int archive_Max;
     public Queue<GameObject> note_Queue = new Queue<GameObject>();
-
+    public float radian;
 
     
 
@@ -24,7 +24,7 @@ public class Note_Archive : MonoBehaviour
         instance = this;
         for(int i=0; i< archive_Max; i++)
         {
-            GameObject clone_Note = Instantiate(note_Prefab, new Vector3(0, 0, -70), Quaternion.LookRotation(new Vector3(-4,0,-120)-new Vector3(0,0,-70)));
+            GameObject clone_Note = Instantiate(note_Prefab, new Vector3(0, 0, -70), Quaternion.LookRotation(new Vector3(radian, 0,-120)-new Vector3(0,0,-70)));
          
             clone_Note.transform.SetParent(parent.transform);
            
@@ -45,7 +45,7 @@ public class Note_Archive : MonoBehaviour
     public GameObject Getqueue(float set_rotation)
     {
         GameObject t_Object = note_Queue.Dequeue();
-        t_Object.transform.Rotate(new Vector3(0, 0, -set_rotation),Space.World);
+        t_Object.transform.Rotate(new Vector3(0, 0,360 -set_rotation),Space.World);
         t_Object.transform.position = new Vector3(0, 0, -70);
         t_Object.SetActive(true);
        
