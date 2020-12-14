@@ -25,12 +25,14 @@ namespace RhythmTool.Examples
         {
             float time = audioSource.time;
             onsets.Clear();
-
+            
             rhythmData.GetFeatures<Onset>(onsets, prevTime, time);
             foreach (Onset onset in onsets)
             {
+                
                 Note_Archive.instance.Getqueue(onset.strength*41.3f);
             }
+            
             prevTime = time;
         }
     }

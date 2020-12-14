@@ -7,20 +7,22 @@ using UnityEngine;
 
     public class Hit : MonoBehaviour
     {
+    public static bool on_and_on = false;
 
 
-    double a = 0;
     public void Update()
     {
-        a += Time.deltaTime;
+        
     }
         public static bool hit;
         private void OnTriggerEnter(Collider collision)
         {
-            if (collision.CompareTag("HitZone"))
+        on_and_on = true;
+
+        if (collision.CompareTag("HitZone"))
             {
                 hit = true;
-            Debug.Log(a);
+            
                 Note_Archive.instance.InsertQueue(this.gameObject);
 
             }
@@ -30,7 +32,7 @@ using UnityEngine;
 
                 hit = true;
 
-            Debug.Log(a);
+           
             Note_Archive.instance.InsertQueue(this.gameObject);
 
             }

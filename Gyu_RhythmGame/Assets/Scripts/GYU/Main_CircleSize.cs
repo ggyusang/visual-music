@@ -21,10 +21,10 @@ namespace RhythmTool.Examples
             if (Hit.hit == true)
 
             {
-                Debug.Log("hit = true");
+                
                 theObject.transform.localScale += new Vector3(plusScale, plusScale, plusScale);
                 Hit.hit = false;
-                Debug.Log("hit = false");
+               
 
 
 
